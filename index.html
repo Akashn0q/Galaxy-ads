@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Galaxy Cricket Hub</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://facebook.net');
+fbq('init', '2546130972463643');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://facebook.com"/>
+</noscript>
+<!-- End Meta Pixel Code -->
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial;
-  background: #101827;
-  color: white;
-  text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+    text-align: center;
 }
 .container {
-  padding: 40px 20px;
-  margin-top: 50px;
+    padding: 35px 20px;
 }
 .logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5c542;
+    margin-top: 40px;
+}
+.box {
+    background: #1d2b40;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-top: 35px;
 }
 h1 {
-  color: gold;
-  font-size: 30px;
+    color: #f5c542;
 }
 p {
-  font-size: 17px;
-  line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.6;
 }
 .btn {
-  display: inline-block;
-  background: #0088cc;
-  color: white;
-  padding: 15px 35px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 20px;
+    display: inline-block;
+    background: #229ED9;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 35px;
+    color: #aaa;
+    font-size: 13px;
 }
 </style>
 </head>
@@ -48,18 +79,35 @@ p {
 
 <div class="container">
 
-<img src="logo.jpg" class="logo">
+<div class="logo">🏏 GALAXY CRICKET HUB</div>
 
-<h1>Galaxy Cricket Hub</h1>
+<div class="box">
+
+<h1>Welcome to Galaxy Cricket Hub</h1>
 
 <p>
-Hamare Telegram Channel ko join karne ke liye
-niche diye gaye button par click karein.
+Cricket News, Match Updates, Team Information
+and Match Analysis ke liye hamare Telegram
+channel se judein.
 </p>
 
-<a href="YOUR_TELEGRAM_LINK" class="btn">
+<p>
+Hamare Telegram channel ko join karne ke liye
+neeche diye gaye button par click karein.
+</p>
+
+<!-- Neeche YOUR_TELEGRAM_CHANNEL_LINK ki jagah apna link daalein -->
+<a class="btn" href="YOUR_TELEGRAM_CHANNEL_LINK" onclick="fbq('track', 'Lead');">
 JOIN TELEGRAM CHANNEL
 </a>
+
+</div>
+
+<div class="footer">
+© 2026 Galaxy Cricket Hub
+<br><br>
+For informational and entertainment purposes only.
+</div>
 
 </div>
 
